@@ -1,6 +1,6 @@
 # Huffman Coding
 
-Compression algorithm according to Huffman Coding method.
+Lossless compression using Huffman Coding method.
 
 ```python
 from huffman.huffman_tree import HuffmanTree 
