@@ -2,8 +2,7 @@
 
 Compression algorithm according to Huffman Coding method.
 
-python
-```
+```python
 data = 'hello world, this is a message to be encoded using Huffman Coding.'.encode()
 tree = HuffmanTree.create(data)
 encoded = tree.encode(data) # 11111111111111010...
